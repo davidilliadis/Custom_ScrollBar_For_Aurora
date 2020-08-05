@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+} 
+
+.scrollbarclass { /* afto einai to div tou body */
+    background: #000;
+    width: 100%;
+    height:100%;
+    
+}
+
+
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+}
+
+section h2 {
+    color: #666;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #666;
+    font-size: 1.2em;
+}
+::-webkit-scrollbar  {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right top, #2424D1, #3822DA, #481FE3, #581BEC, #6714F4, #790EF1, #8806EE, #9600EB, #A402DD, #AD0ED0
+    , #B41AC4, #B926B9);
+    border-radius: 6px;
+  
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent,#a200ff);
+}
+
+
+::-webkit-scrollbar-track-piece
+{
+    background-color: transparent; /* allazw to aspro xrwma stin katheti mpara tou scrollbar */
+   
+}
